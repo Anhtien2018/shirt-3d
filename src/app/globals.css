@@ -16,11 +16,17 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+  /* background: #252525;
+  background: linear-gradient(15deg, #101010 0%, #252525 100%); */
   font-family: Arial, Helvetica, sans-serif;
 }
